@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(113, 122, 118);
+    margin-top: 75px;
+}
+body h1{
+    justify-content: center;
+    color:rgb(223, 197, 166);
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    background-color: white;
+    width: 500px;
+    margin:0 auto;
+    border: solid 1px #ccc;
+    padding: 20px
+}
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+}
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: solid 1px rgb(233, 231, 231);
+    width: 300px;
+}
+button,
+input[type="submit"]{
+    border: none;
+    /* background-color: #003366; */
+    background-color: rgb(69, 71, 71);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 10px;
+}
+.task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.task .completed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .done{
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+} */
+input[type="checkbox"]{
+    
+    border: none;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+ input{
+     border-radius: 5px;
+     background-color: rgb(229, 226, 226);;
+ }
